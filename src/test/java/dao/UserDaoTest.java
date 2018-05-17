@@ -33,7 +33,7 @@ public class UserDaoTest {
 
     @BeforeClass
     public static void createSchema() throws Exception {
-        RunScript.execute(JDBC_URL, USER, PASSWORD, "schema/user2.sql", Charset.forName(UTF8), false);
+        RunScript.execute(JDBC_URL, USER, PASSWORD, "schema/user.sql", Charset.forName(UTF8), false);
     }
 
     @Before
