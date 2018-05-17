@@ -1,0 +1,5 @@
+.scannerwork/
+.classpath
+.project
+.settings/
+target/
