@@ -13,7 +13,7 @@ Login success with nattapong
 
 *** Keywords ***
 สามารถเข้าระบบงานได้
-  Wait Until Page Contains    สวัสดีจ๊ะ
+  Wait Until Page Contains    ผิดนะ เข้าไม่ได้
 
 กรอก username และ password
   Input Text  id=user   nattapong
