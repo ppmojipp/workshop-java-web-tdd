@@ -3,7 +3,7 @@ pipeline {
      stages {
        stage('Pullcode') {
          steps {
-             git 'https://github.com/up1/workshop-java-web-tdd.git'
+             git 'https://github.com/ppmojipp/workshop-java-web-tdd.git'
          }
        }
        stage('Testing') {
