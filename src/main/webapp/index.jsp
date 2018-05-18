@@ -10,7 +10,7 @@
 
    <h1>Login คือ ระบบที่ทุกระบบต้องมี at XXXXX</h1>
 
-	<form action="/demo/login">
+	<form action="/babe-project/login">
 		<table>
 		<tr>
 		    <td>Username</td>
