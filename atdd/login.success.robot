@@ -1,12 +1,12 @@
 *** Settings ***
-Library   Selenium2Library
+Library   SeleniumLibrary
 Test Teardown   Close Browser
 
 *** Variables ***
-${URL}  http://localhost:8082/demo/
+${URL}  http://localhost:8082/babe-project/
 
 *** Testcases ***
-Login success with somkiat
+Login success with nattapong
   เข้าหน้า login
   กรอก username และ password
   สามารถเข้าระบบงานได้
@@ -16,7 +16,7 @@ Login success with somkiat
   Wait Until Page Contains    สวัสดีจ๊ะ
 
 กรอก username และ password
-  Input Text  id=user   demo
+  Input Text  id=user   nattapong
   Input Text  id=pin   pass
   Click Button   เข้าสิจ๊ะ
 
